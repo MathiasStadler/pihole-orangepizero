@@ -19,7 +19,11 @@ https://www.kuketz-blog.de/pi-hole-schwarzes-loch-fuer-werbung-raspberry-pi-teil
 ```bash
 sudo tasksel --list-tasks
 # e.g for XFCE
+<<<<<<< HEAD
 sudo tasksel remove xfce-desktop
+=======
+tasksel remove xfce-desktop
+>>>>>>> badc36dc3c42e7c46df1192a867c34eb3a099857
 ```
 
 ## change hostname
@@ -106,4 +110,7 @@ sudo vi /etc/pihole/adlists.list
 
 - [easylist](https://github.com/justdomains/blocklists#using-with-pi-hole)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> badc36dc3c42e7c46df1192a867c34eb3a099857
